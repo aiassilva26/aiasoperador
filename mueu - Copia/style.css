@@ -1,0 +1,131 @@
+body {
+    /* background-image: linear-gradient( 45deg, #dcdea2, #de7626), url("https://img2.gratispng.com/20180612/wgz/kisspng-caterpillar-inc-excavator-backhoe-heavy-machinery-catterpillar-5b20852e5e31c1.5753408715288579023858.jpg"); */
+    background-image: linear-gradient( 180deg,  #de7626,#2e2c23), url("https://img2.gratispng.com/20180612/wgz/kisspng-caterpillar-inc-excavator-backhoe-heavy-machinery-catterpillar-5b20852e5e31c1.5753408715288579023858.jpg");
+    font-size: 28px; /* Aumentando o tamanho da fonte */
+    margin: 0; /* Removendo margens padrão */
+    padding: 0; /* Removendo preenchimento padrão */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+}
+header {
+    /* background-image: linear-gradient(to right, #ff7e5f, #feb47b); */
+    color: white; /* Definindo a cor do texto como branco */
+    padding: 20px; /* Adicionando espaço interno para melhor legibilidade */
+    text-align: center; /* Centralizando o texto */
+}
+header {
+    /* background-image: linear-gradient(to right, #914800, #ff8c34); */
+    background-image: linear-gradient( 360deg,  #de7626,#2e2c23), url("https://img2.gratispng.com/20180612/wgz/kisspng-caterpillar-inc-excavator-backhoe-heavy-machinery-catterpillar-5b20852e5e31c1.5753408715288579023858.jpg");
+
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    margin: 5px 0;
+    font-size: 44px;
+}
+
+.line {
+    border-bottom: 1px solid white;
+    margin-top: 5px;
+    width: 15%;
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Centralizando os links horizontalmente */
+    padding: 10px; /* Adicionando margem superior aos links */
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-top: 2px solid rgb(0, 0, 0);
+
+}
+
+nav a {
+    margin: 0 20px; /* Adicionando espaçamento entre os links */
+    padding: 10px 20px; /* Adicionando preenchimento para espaçamento entre a borda esquerda/direita e o texto */
+    color: rgb(255, 255, 255); /* Alterando a cor do texto para preto */
+    text-decoration: none;
+    font-size: 40px;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.block {
+    padding: 20px; /* Adicionando preenchimento ao redor do conteúdo da seção */
+}
+
+.texto-centralizado {
+    text-align: center; /* Centralizando o texto dentro das seções */
+    padding-left: 20px; /* Adicionando espaçamento à esquerda do texto */
+}
+
+.solucoes p {
+    text-indent: 20px; /* Alinhando o início das frases na seção de Soluções */
+    text-align: justify; /* Justificando o texto */
+}
+
+
+.serviços{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.serviços li{
+    background-color: #8b3e00;
+    margin: 1em;
+    padding: .5em;
+    border-radius: 8px;
+    min-height: 450px;
+    max-width: 350px;
+    box-shadow: 2px 2px 20px black;
+    color: yellow;
+}
+
+.serviços li div img{
+max-width:100%;
+transition: .5s;
+}
+.serviços li div img:hover{
+   animation: Image 2s infinite;
+    
+}
+
+#contato{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+}
+
+
+
+@keyframes Image{
+    0%{
+        transform: scale(1);
+
+    }
+    33%{
+    }
+    90%{
+       transform: scale(1.6);
+        transform: translateX(-90px);
+    }
+}
+a {
+    color: blue; /* Define a cor azul para todos os links */
+    text-decoration: none; /* Remove o sublinhado padrão */
+}
